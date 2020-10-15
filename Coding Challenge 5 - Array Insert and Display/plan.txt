@@ -1,0 +1,10 @@
+How do you identify the most repeated element in an array?
+	- Sort the array
+	- loop and count the number of consecutive items that are equal
+		- check the next element over if equal
+			- if equal we up the counter of equals and move to next element
+			- if not equal we evaluate against current counter (see below) and then move on
+	- compare the number of consecutive equal values to the current number
+		- if the number is bigger, clear the results array and add the value
+		- if the number is equal, add the value to the existing results array
+		- if the number is less than, skip and move on to the next one.
