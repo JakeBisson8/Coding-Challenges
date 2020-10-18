@@ -1,3 +1,5 @@
+//Jake Bisson (jlb4@rogers.com / jbiss085@uottawa.ca)
+
 import java.util.Scanner;
 
 public class PerfectNumber {
